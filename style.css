@@ -17,6 +17,17 @@ body{
     display: flex;
     font-weight: normal;
 }
+.navbar li{
+    margin-top: 0px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    padding-right: 0px;
+    height: 15px;
+}
+.navbar li:hover{
+    background-color: hsl(0, 0%, 10%);
+}
 #ubtext{
     color: white;
     list-style: none;
@@ -63,6 +74,7 @@ body{
     height: 37px;
     width: 75px;
     border-radius: 19px;
+    cursor: pointer;
 }
 .nav-right ul li img{
     height: 19px;
